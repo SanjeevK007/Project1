@@ -1,7 +1,7 @@
 <html>
 <head>
-	<h1>Retrive Youtube Videos</h1>
-	<link rel ="stylesheet" href ="C:\xampp\htdocs\Project1\style.css">
+	<h1>Youtube Videos</h1>
+	<link rel ="stylesheet" href ="style.css">
 </head>
 <body>
 	<div class="container">
