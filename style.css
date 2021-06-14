@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #ffee99;
+  background-color: #999999;
   font-family: 'Lato', sans-serif;
 }
 
@@ -28,7 +28,7 @@ a {
 }
 
 .grid {
-  display: flex;
+  display: relative;
 }
 
 header {
@@ -81,7 +81,7 @@ nav > ul {
 }
 
 #About {
-  margin-top: 200px;
+  margin-top: 110px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -101,8 +101,8 @@ nav > ul {
 }
 
 #More-Videos > iframe {
-  max-width: 560px;
-  width: 100%;
+  max-width: 240px;
+  width: 40%;
 }
 
 #Contact {
@@ -111,6 +111,26 @@ nav > ul {
   flex-direction: row;
   justify-content: center;
   background-color: #ddd;
+}
+
+.load-more{
+    width: 99%;
+    background: #15a9ce;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+.load-more:hover{
+    cursor: pointer;
+}
+
+.more{
+    color: blue;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 16px;
 }
 
 footer {
