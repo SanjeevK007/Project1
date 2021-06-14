@@ -11,10 +11,11 @@
 		$key = "AIzaSyCZLkAh-QpVmnsw-Iqb4V7RzVOodcTrQ08";
 		$base_url = "https://www.googleapis.com/youtube/v3/";
 		$maxResult = 10;
+		$nextPageToken = "CAoQAA";
 		$apiError = 'Video not found';
 		try{
-			$API_URL = $base_url."search?order=date&part=snippet&maxResults=".$maxResult."&key=".$key;
-			$apiData = @file_get_contents($base_url."search?order=date&part=snippet&maxResults=".$maxResult."&key=".$key);
+			$API_URL = $base_url."search?order=date&part=snippet&maxResults=".$maxResult."&key=".$key."&pageToken=".$nextPageToken;
+			$apiData = @file_get_contents($base_url."search?order=date&part=snippet&maxResults=".$maxResult."&key=".$key."&pageToken=".$nextPageToken);
 			if($apiData){
 				$videos = json_decode( $apiData );
 			}
