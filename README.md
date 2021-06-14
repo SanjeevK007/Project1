@@ -1,4 +1,4 @@
-# Project1
+# Trending Youtube Videos
 Website for Youtube Trending Videos
 
 Embed videos from YouTube in PHP web application. The YouTube videos will be displayed in the gallery.  
