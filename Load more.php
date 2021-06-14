@@ -9,7 +9,7 @@
 			<h1 id="title" class="text-center">Hurray !!Some More Videos. Enjoy!!</h1>
 				<nav id="nav-bar">
 				  <ul>
-					<li><a class="nav-link" href="FetchVideo.php">Home</a></li>
+					<li><a class="nav-link" href="index.php">Home</a></li>
 				  </ul>
 				</nav>
 			</header>	
