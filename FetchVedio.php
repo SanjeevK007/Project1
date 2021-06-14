@@ -34,6 +34,7 @@
 			echo "<div class ='row'>";
 			foreach($videos as $video){
 				echo "<div class='col-md-6'>";
+				echo "<center><lable>".$video['title']."</lable></center>";
 				echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/'.$video['video_id'].'" frameborder="1"
 						allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 				echo "</div>";
