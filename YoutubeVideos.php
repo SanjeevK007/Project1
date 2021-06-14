@@ -1,7 +1,6 @@
 <html>
 <head>
-	<h1>Youtube Videos</h1>
-	<link rel ="stylesheet" href ="style.css">
+	<h1>Retrive Youtube Videos</h1>
 </head>
 <body>
 	<div class="container">
