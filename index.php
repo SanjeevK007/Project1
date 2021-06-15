@@ -13,12 +13,12 @@
 				<li><a class="nav-link" href="#Contact">Contact</a></li>
 			  </ul>
 			</nav>
-		</header>	
+		</header>
+		<center>
 		<?php	
-// 			include "DbConnect.php";
-// 			$db = new DbConnect();
-// 			$conn = $db->connect();
-			include "db.php";
+			include "DbConnect.php";
+			$db = new DbConnect();
+			$conn = $db->connect();
 
 			$stmt = $conn->prepare("SELECT * FROM videos LIMIT 10");
 			$stmt->execute();
@@ -33,6 +33,7 @@
 			}
 			echo "</div>";
 		?>
+		</center>
 		<section id="Contact">
 			<div class="grid">
 				<h4>Contact : </h4>
