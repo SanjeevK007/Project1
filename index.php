@@ -15,9 +15,10 @@
 			</nav>
 		</header>	
 		<?php	
-			require "DbConnect.php";
-			$db = new DbConnect();
-			$conn = $db->connect();
+// 			include "DbConnect.php";
+// 			$db = new DbConnect();
+// 			$conn = $db->connect();
+			include "db.php";
 
 			$stmt = $conn->prepare("SELECT * FROM videos LIMIT 10");
 			$stmt->execute();
