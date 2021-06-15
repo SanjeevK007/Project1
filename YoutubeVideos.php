@@ -26,7 +26,7 @@
 		catch(Exception $e){
 			$apiError = $e->getMassage();
 		}
-		include "DbConnect.php";
+		require "DbConnect.php";
 		$db = new DbConnect();
 		$conn = $db->connect();
 
