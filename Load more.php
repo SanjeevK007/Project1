@@ -16,7 +16,7 @@
 			<section id="load-more">
 				<center>
 				<?php
-					include "DbConnect.php";
+					require "DbConnect.php";
 					$db = new DbConnect();
 					$conn = $db->connect();
 
