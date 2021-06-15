@@ -14,7 +14,6 @@
 			  </ul>
 			</nav>
 		</header>	
-		<center>
 		<?php	
 			require("DbConnect.php");
 			$db = new DbConnect();
@@ -33,7 +32,6 @@
 			}
 			echo "</div>";
 		?>
-		</center>
 		<section id="Contact">
 			<div class="grid">
 				<h4>Contact : </h4>
