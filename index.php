@@ -15,7 +15,7 @@
 			</nav>
 		</header>	
 <!-- 		<?php	
-			require("DbConnect.php");
+			include "DbConnect.php";
 			$db = new DbConnect();
 			$conn = $db->connect();
 
