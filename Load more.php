@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Load more data</title>
+        <title>Load more Videos</title>
         <link type="text/css" rel="stylesheet" href="style.css" >
     </head>
     <body>
