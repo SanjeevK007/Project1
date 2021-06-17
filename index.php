@@ -6,7 +6,7 @@
 <body>		
 	<div class="container">
 		<header id="header">
-		<h1 id="title" class="text-center">Fetching Youtube Videos from the Database</h1>
+		<h1 id="title" class="text-center">Trending Youtube Videos</h1>
 			<nav id="nav-bar">
 			  <ul>
 				<li><a class="nav-link" href="Load more.php">More Videos</a></li>
@@ -42,6 +42,11 @@
 				</p>
 			</div>
 		</section>
+		<div style ="position : fixed; bottom:10px;right: 10px; color: green;">
+			<strong>
+				By Sanjeev Kumar
+			</strong>
+		</div>
 	</div>
 </body>
 <footer>
