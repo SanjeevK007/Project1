@@ -7,7 +7,7 @@
 
 		public function connect(){
 			try{
-				$conn = new PDO('mysql:host='.$this->host.';dbname=fxynetzrst',$this->user);
+				$conn = new PDO('mysql:host='.$this->host.';dbname=fxynetzrst',$this->user,$this->pass);
 				$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 				return $conn;
 			}
