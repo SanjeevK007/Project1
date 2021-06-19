@@ -11,6 +11,7 @@
 			  <ul>
 				<li><a class="nav-link" href="Load more.php">More Videos</a></li>
 				<li><a class="nav-link" href="#Contact">Contact</a></li>
+				 <li><a class="nav-link" href="#YoutubeVideos">Load</a></li>
 			  </ul>
 			</nav>
 		</header>
