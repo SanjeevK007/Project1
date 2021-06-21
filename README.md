@@ -1,4 +1,4 @@
-# Trending Youtube Videos
+# YouTrend : Trending Youtube Videos
 Website for Youtube Trending Videos
 
 Embed videos from YouTube in PHP web application. The YouTube videos will be displayed in the gallery.  
@@ -7,7 +7,7 @@ This project has mainly 3 features :-
 
 1. One API end fetches the trending videos from youtube and save them into the database.
 2. One API end fetch these saved videos from database and show on the website.
-3. One API can show the details of the particular video.
+
 
 Functionality :-
 
@@ -17,3 +17,5 @@ Functionality :-
 
 Contact:
 please send an email to sanjeevkumardev007@gmail.com.
+
+Project is deployed on cloudways using php server. @ https://phpstack-615699-1997370.cloudwaysapps.com/index.php
