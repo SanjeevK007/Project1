@@ -45,7 +45,7 @@
 								include "DbConnect.php";
 								$db = new DbConnect();
 								$conn = $db->connect();
-								$stmt = $conn->prepare("SELECT * FROM videos LIMIT 25");
+								$stmt = $conn->prepare("SELECT * FROM videos order by id LIMIT 25");
 								$stmt->execute();
 								$videos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 								foreach($videos as $video){
@@ -54,9 +54,9 @@
 								}
 							?>
 					</div>
-					<nav class="pagination">
-						<center><button type="button"><a href ="Load more videos">Load more videos</a></button></center>
-					</nav>
+					<div>
+						<center><button type="button"><a href ="Load more.php">Load more videos</a></button></center>
+					</div>
 				</div>
 				<div class="clear"></div>
 		    </main>
