@@ -45,7 +45,7 @@
 								include "DbConnect.php";
 								$db = new DbConnect();
 								$conn = $db->connect();
-								$stmt = $conn->prepare("SELECT * FROM videos order by id LIMIT 25");
+								$stmt = $conn->prepare("SELECT * FROM videos order by id desc LIMIT 25");
 								$stmt->execute();
 								$videos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 								foreach($videos as $video){
