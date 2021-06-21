@@ -55,7 +55,7 @@
 							?>
 					</div>
 					<nav class="pagination">
-						<button type="button"><a href ="Load more videos">Load more videos</a></button>
+						<center><button type="button"><a href ="Load more videos">Load more videos</a></button></center>
 					</nav>
 				</div>
 				<div class="clear"></div>
