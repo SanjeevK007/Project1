@@ -58,7 +58,7 @@
 							?>
 					</div>
 					<div>
-						<button type="button"><a href="Load more.php">Load more videos</a></button>
+						<center><button type="button"><a href="Load more.php">Load more videos</a></button></center>
 					</div>
 				</div>
 				<div class="clear"></div>
